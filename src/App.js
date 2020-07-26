@@ -2,24 +2,21 @@ import React from 'react';
 
 import Clock from 'react-live-clock';
 import './main.scss';
-import Alert from 'react-bootstrap/Alert';
 
 function App() {
   var myMappings = {
     names: [["kilacoda", "India/Kolkata"],
-      ["Aathish", "India/Kolkata"],
+      ["Aathish04", "India/Kolkata"],
       ["huguesdvmx","Europe/Paris"],
-      []]
+      ["XorUnison","Europe/Paris"],
+      ["🔥PgSuper🔥","America/Sao_Paulo"],
+      ["YoshiAsk","America/Santa_Isabel"],
+      ["TheQuarantinedSpy","America/Santa_Isabel"],
+      ["paradox","America/Santa_Isabel"]]
 };
   return (
     <div className="container-fluid">
-      <Alert variant="primary">
-        <Alert.Heading>Hey, nice to see you</Alert.Heading>
-        <hr/>
-        <p>
-          This is Manim Community Members time now.
-        </p>
-      </Alert>
+      <h1 className="primary">Manim Community Members TimeZones</h1>
       <div className="main-clock">
           {myMappings.names.map((variant, idx) => (
             <div>

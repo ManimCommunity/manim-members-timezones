@@ -2,10 +2,23 @@ $body-bg: #282c34;
 $body-color: #111;
 body{
     padding: 3rem;
+    background-image: url("https://cdn.jsdelivr.net/gh/ManimCommunity/manim/logo/graph.png");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-clock{
     text-align: center;
     color: white;
     font-size: xx-large;
+    padding: 3rem;
 }
+
 @import "node_modules/bootstrap/scss/bootstrap";
+.primary{
+    color: $red;
+    text-align: center;
+}
