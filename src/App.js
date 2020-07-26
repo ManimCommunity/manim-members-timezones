@@ -15,8 +15,8 @@ function App() {
       ["huguesdvmx","Europe/Paris"],
       ["XorUnison","Europe/Paris"],
       ["kolibril13","Europe/Paris"],
-      ["Aathish04", "India/Kolkata"],
-      ["kilacoda", "India/Kolkata"],
+      ["Aathish04", "Asia/Kolkata"],
+      ["kilacoda", "Asia/Kolkata"],
       ]
 };
   return (
