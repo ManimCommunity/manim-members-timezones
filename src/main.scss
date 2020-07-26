@@ -1,0 +1,11 @@
+$body-bg: #282c34;
+$body-color: #111;
+body{
+    padding: 3rem;
+}
+.main-clock{
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+@import "node_modules/bootstrap/scss/bootstrap";

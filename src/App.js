@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Clock from 'react-live-clock';
+import './main.scss';
+import Alert from 'react-bootstrap/Alert';
 
 function App() {
+  var myMappings = {
+    names: [["kilacoda", "India/Kolkata"],
+      ["Aathish", "India/Kolkata"],
+      ["huguesdvmx","Europe/Paris"],
+      []]
+};
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container-fluid">
+      <Alert variant="primary">
+        <Alert.Heading>Hey, nice to see you</Alert.Heading>
+        <hr/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is Manim Community Members time now.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </Alert>
+      <div className="main-clock">
+          {myMappings.names.map((variant, idx) => (
+            <div>
+              <b>{variant[0]}</b> : <Clock format={'hh:mm:ss A'} ticking={true} timezone={variant[1]} />
+            </div>
+          ))}
+      </div>
     </div>
   );
 }
