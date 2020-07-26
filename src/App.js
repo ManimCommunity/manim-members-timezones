@@ -5,14 +5,19 @@ import './main.scss';
 
 function App() {
   var myMappings = {
-    names: [["kilacoda", "India/Kolkata"],
-      ["Aathish04", "India/Kolkata"],
+    names: [
+      ["EulerTour","America/Santa_Isabel"],
+      ["YoshiAsk","America/Santa_Isabel"],
+      ["paradox","America/Santa_Isabel"],
+      ["TheQuarantinedSpy","America/Santa_Isabel"],
+      ["leotrs","America/Blanc-Sablon"],
+      ["🔥PgSuper🔥","America/Sao_Paulo"],
       ["huguesdvmx","Europe/Paris"],
       ["XorUnison","Europe/Paris"],
-      ["🔥PgSuper🔥","America/Sao_Paulo"],
-      ["YoshiAsk","America/Santa_Isabel"],
-      ["TheQuarantinedSpy","America/Santa_Isabel"],
-      ["paradox","America/Santa_Isabel"]]
+      ["kolibril13","Europe/Paris"],
+      ["Aathish04", "India/Kolkata"],
+      ["kilacoda", "India/Kolkata"],
+      ]
 };
   return (
     <div className="container-fluid">
