@@ -22,7 +22,6 @@ body {
   text-align: center;
 }
 .labelswitch {
-  display:inline;
   font-size: $lead-font-size;
   color: $secondary;
   align-items: center;
@@ -100,7 +99,7 @@ input:checked + .slider:before {
     display:inline;
   }
   .labelswitch {
-    visibility: hidden;
+    visibility: collapse;
     display:inline-block;
     font-size: $lead-font-size;
     color: $secondary;
