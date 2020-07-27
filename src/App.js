@@ -4,8 +4,8 @@ import Clock from "react-live-clock";
 import "./main.scss";
 
 function App() {
-  const [dformat, setdformat] = useState("int24");
-  console.log(dformat)
+  const [dformat, setdformat] = useState(true);
+  console.log(dformat);
   var nameList = {
     names: [
       ["EulerTour", "America/Santa_Isabel"],
@@ -21,41 +21,56 @@ function App() {
       ["kilacoda", "Asia/Kolkata"],
     ],
   };
-  //int24 for 24 hour format and ampm for AM/Pm format
+  //true for 24 hour format and false for AM/Pm format
   function ampmbutton() {
-    if (dformat === "ampm") {
-      setdformat(dformat => dformat="int24");
-    }else{
-      setdformat(dformat => dformat="ampm");
-    }}
+    //if (dformat === "ampm") {
+    if (dformat === true) {
+      setdformat((dformat) => (dformat = false));
+    } else {
+      setdformat((dformat) => (dformat = true));
+    }
+  }
   return (
     <div className="container-fluid">
       <h1 className="primary">Manim Community Members TimeZones</h1>
       <div className="main-clock">
-          {dformat === "ampm" &&
-              nameList.names.map((variant, idx) => (
-                <div>
-                  <b>{variant[0]}</b> :{" "}
-                  <Clock
-                    format={"hh:mm:ss A"}
-                    ticking={true}
-                    timezone={variant[1]}
-                  />
-                </div>
-              ))}{dformat === "int24" &&
-                nameList.names.map((variant, idx) => (
-                <div>
-                  <b>{variant[0]}</b> :{" "}
-                  <Clock
-                    format={"HH:mm:ss"}
-                    ticking={true}
-                    timezone={variant[1]}
-                  />
-                </div>))
-                }
-                </div>
-                <button className="btn btn-primary changebutton" onClick={ampmbutton}><i class="fas fa-hourglass-start"></i></button>
-                </div>
+        <div className="labelswitch">
+          <label for="ampmswitch" className="labelswitch">
+            AM/PM
+          </label>{" "}
+          <label class="switch">
+            <input
+              type="checkbox"
+              id="ampmswitch"
+              checked={dformat}
+              onChange={ampmbutton}
+            />
+            <span class="slider round"></span>
+          </label>
+          <label for="ampmswitch" className="labelswitch">
+            24-hour
+          </label>{" "}
+        </div>
+        {dformat === false &&
+          nameList.names.map((variant, idx) => (
+            <div>
+              <b>{variant[0]}</b> :{" "}
+              <Clock
+                format={"hh:mm:ss A"}
+                ticking={true}
+                timezone={variant[1]}
+              />
+            </div>
+          ))}
+        {dformat === true &&
+          nameList.names.map((variant, idx) => (
+            <div>
+              <b>{variant[0]}</b> :{" "}
+              <Clock format={"HH:mm:ss"} ticking={true} timezone={variant[1]} />
+            </div>
+          ))}
+      </div>
+    </div>
   );
 }
 
