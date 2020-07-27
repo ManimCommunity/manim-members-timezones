@@ -35,9 +35,8 @@ function App() {
       <h1 className="primary">Manim Community Members TimeZones</h1>
       <div className="main-clock">
         <div className="labelswitch">
-          <label for="ampmswitch" className="labelswitch">
-            AM/PM
-          </label>{" "}
+          <label for="ampmswitch">AM/PM
+          </label>
           <label class="switch">
             <input
               type="checkbox"
@@ -47,9 +46,7 @@ function App() {
             />
             <span class="slider round"></span>
           </label>
-          <label for="ampmswitch" className="labelswitch">
-            24-hour
-          </label>{" "}
+          <label for="ampmswitch">24-hour</label>
         </div>
         {dformat === false &&
           nameList.names.map((variant, idx) => (

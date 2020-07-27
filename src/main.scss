@@ -9,19 +9,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@import "node_modules/bootstrap/scss/bootstrap";
 .main-clock {
   text-align: center;
   color: white;
-  font-size: xx-large;
+  font-size: $h2-font-size;
   padding: 3rem;
+  display:inline;
 }
-@import "node_modules/bootstrap/scss/bootstrap";
 .primary {
   color: $red;
   text-align: center;
 }
 .labelswitch {
-  font-size: 25px;
+  display:inline;
+  font-size: $lead-font-size;
   color: $secondary;
   align-items: center;
   padding: 0.5rem;
@@ -87,4 +89,21 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .main-clock {
+    text-align: center;
+    color: white;
+    font-size: $h2-font-size;
+    padding: 3rem;
+    display:inline;
+  }
+  .labelswitch {
+    visibility: hidden;
+    display:inline-block;
+    font-size: $lead-font-size;
+    color: $secondary;
+    align-items: center;
+  }
 }
