@@ -31,11 +31,14 @@ function App() {
     }
   }
   return (
-    <div className="container-fluid">
-      <h1 className="primary">Manim Community Members TimeZones</h1>
-      <div className="main-clock">
+    <div className="container-xl">
+      <h1 className="secondary">
+        <u>Manim Community Members TimeZones</u>
+      </h1>
+      <div className="main-clock container">
         <div className="labelswitch">
-          <label for="ampmswitch" className="labelswitch">AM/PM
+          <label htmlFor="ampmswitch" className="labelswitch">
+            AM/PM
           </label>
           <label class="switch">
             <input
@@ -44,16 +47,18 @@ function App() {
               checked={dformat}
               onChange={ampmbutton}
             />
-            <span class="slider round"></span>
+            <span className="slider round"></span>
           </label>
-          <label for="ampmswitch" className="labelswitch">24-hour</label>
+          <label htmlFor="ampmswitch" className="labelswitch">
+            24-hour
+          </label>
         </div>
         {dformat === false &&
           nameList.names.map((variant, idx) => (
             <div>
               <b>{variant[0]}</b> :{" "}
               <Clock
-                format={"hh:mm:ss A"}
+                format={"hh:mm:ss A (dddd)"}
                 ticking={true}
                 timezone={variant[1]}
               />
@@ -61,9 +66,13 @@ function App() {
           ))}
         {dformat === true &&
           nameList.names.map((variant, idx) => (
-            <div>
+            <div key={idx}>
               <b>{variant[0]}</b> :{" "}
-              <Clock format={"HH:mm:ss"} ticking={true} timezone={variant[1]} />
+              <Clock
+                format={"HH:mm:ss (dddd)"}
+                ticking={true}
+                timezone={variant[1]}
+              />
             </div>
           ))}
       </div>
