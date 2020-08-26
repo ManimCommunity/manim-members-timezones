@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 
 import Clock from "react-live-clock";
 import "./main.scss";
@@ -9,7 +9,7 @@ function App() {
   var nameList = {
     names: [
       ["EulerTour", "America/Santa_Isabel"],
-      ["YoshiAsk", "America/Santa_Isabel"],
+      ["YoshiAsk", "America/Chicago"],
       ["paradox", "America/Santa_Isabel"],
       ["TheQuarantinedSpy", "America/Santa_Isabel"],
       ["leotrs", "America/Blanc-Sablon"],
