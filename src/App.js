@@ -19,6 +19,7 @@ function App() {
       ["kolibril13", "Europe/Paris"],
       ["Aathish04", "Asia/Kolkata"],
       ["kilacoda", "Asia/Kolkata"],
+      ["behackl","Europe/Vienna"],
     ],
   };
   //true for 24 hour format and false for AM/Pm format
