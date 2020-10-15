@@ -20,6 +20,7 @@ function App() {
       ["Aathish04", "Asia/Kolkata"],
       ["kilacoda", "Asia/Kolkata"],
       ["behackl","Europe/Vienna"],
+      ["cobordism","Europe/Amsterdam"],
     ],
   };
   //true for 24 hour format and false for AM/Pm format
