@@ -22,6 +22,7 @@ function App() {
       ["behackl","Europe/Vienna"],
       ["cobordism","Europe/Amsterdam"],
       ["naveen521kk","Asia/Kolkata"],
+      ["philippimhof","Europe/Zurich"]
     ],
   };
   //true for 24 hour format and false for AM/Pm format
