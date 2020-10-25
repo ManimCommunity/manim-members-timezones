@@ -9,19 +9,19 @@ function App() {
   var nameList = {
     names: [
       ["EulerTour", "America/Santa_Isabel"],
-      ["YoshiAsk", "America/Chicago"],
       ["paradox", "America/Santa_Isabel"],
       ["TheQuarantinedSpy", "America/Santa_Isabel"],
+      ["YoshiAsk", "America/Chicago"],
       ["leotrs", "America/Blanc-Sablon"],
       ["🔥PgSuper🔥", "America/Sao_Paulo"],
+      ["Aathish04", "Asia/Kolkata"],
+      ["kilacoda", "Asia/Kolkata"],
+      ["naveen521kk","Asia/Kolkata"],
+      ["cobordism","Europe/Amsterdam"],
       ["huguesdvmx", "Europe/Paris"],
       ["XorUnison", "Europe/Paris"],
       ["kolibril13", "Europe/Paris"],
-      ["Aathish04", "Asia/Kolkata"],
-      ["kilacoda", "Asia/Kolkata"],
       ["behackl","Europe/Vienna"],
-      ["cobordism","Europe/Amsterdam"],
-      ["naveen521kk","Asia/Kolkata"],
       ["philippimhof","Europe/Zurich"]
     ],
   };
