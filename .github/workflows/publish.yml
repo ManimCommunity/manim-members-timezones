@@ -24,8 +24,8 @@ jobs:
     - name: Upload Artifacts 🔺
       uses: actions/upload-artifact@v1
       with:
-          name: dist
-          path: dist
+          name: build
+          path: build
   deploy:
     name: Deploy Site
     needs: [build] # The second job must depend on the first one to complete before running, and uses ubuntu-latest instead of windows.
@@ -39,12 +39,12 @@ jobs:
       - name: Download Artifacts 🔻
         uses: actions/download-artifact@v1
         with:
-          name: dist
+          name: build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
             GITHUB_TOKEN : ${{ github.token }}
-            BRANCH: deploy
-            FOLDER: dist
+            BRANCH: gh-pages
+            FOLDER: build
             SINGLE_COMMIT: true
 
