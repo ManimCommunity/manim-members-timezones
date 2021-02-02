@@ -8,6 +8,7 @@ function App() {
   console.log(dformat);
   var nameList = {
     names: [
+      ["jsonV", "America/Los_Angeles"]
       ["EulerTour", "America/Santa_Isabel"],
       ["paradox", "America/Santa_Isabel"],
       ["TheQuarantinedSpy", "America/Santa_Isabel"],
