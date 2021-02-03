@@ -13,6 +13,7 @@ function App() {
       ["paradox", "America/Santa_Isabel"],
       ["TheQuarantinedSpy", "America/Santa_Isabel"],
       ["YoshiAsk", "America/Chicago"],
+      ["friedkeenan", "America/Chicago"],
       ["leotrs", "America/Blanc-Sablon"],
       ["🔥PgSuper🔥", "America/Sao_Paulo"],
       ["Aathish04", "Asia/Kolkata"],
