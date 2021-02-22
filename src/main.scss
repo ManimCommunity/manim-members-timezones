@@ -93,6 +93,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+.root canvas {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
 @media (max-width: 768px) {
   .main-clock {
