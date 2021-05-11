@@ -16,15 +16,15 @@ function App() {
       ["friedkeenan", "America/Chicago"],
       ["leotrs", "America/Blanc-Sablon"],
       ["🔥PgSuper🔥", "America/Sao_Paulo"],
-      ["Aathish04", "Asia/Kolkata"],
-      ["kilacoda", "Asia/Kolkata"],
-      ["naveen521kk","Asia/Kolkata"],
       ["cobordism","Europe/Amsterdam"],
       ["huguesdvmx", "Europe/Paris"],
       ["XorUnison", "Europe/Paris"],
       ["kolibril13", "Europe/Paris"],
       ["behackl","Europe/Vienna"],
-      ["philippimhof","Europe/Zurich"]
+      ["philippimhof","Europe/Zurich"],
+      ["Aathish04", "Asia/Kolkata"],
+      ["kilacoda", "Asia/Kolkata"],
+      ["naveen521kk","Asia/Kolkata"],
     ],
   };
   //true for 24 hour format and false for AM/Pm format
