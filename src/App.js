@@ -12,6 +12,7 @@ function App() {
       ["EulerTour", "America/Santa_Isabel"],
       ["paradox", "America/Santa_Isabel"],
       ["TheQuarantinedSpy", "America/Santa_Isabel"],
+      ["MrMallIronmaker", "America/Santa_Isabel"],
       ["YoshiAsk", "America/Chicago"],
       ["friedkeenan", "America/Chicago"],
       ["leotrs", "America/Blanc-Sablon"],
