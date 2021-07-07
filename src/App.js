@@ -10,12 +10,10 @@ function App() {
     names: [
       ["jsonV", "America/Los_Angeles"],
       ["EulerTour", "America/Santa_Isabel"],
-      ["paradox", "America/Santa_Isabel"],
-      ["TheQuarantinedSpy", "America/Santa_Isabel"],
       ["MrMallIronmaker", "America/Santa_Isabel"],
       ["YoshiAsk", "America/Chicago"],
       ["friedkeenan", "America/Chicago"],
-      ["leotrs", "America/Blanc-Sablon"],
+      ["aquabeam", "America/New_York" ],
       ["🔥PgSuper🔥", "America/Sao_Paulo"],
       ["cobordism","Europe/Amsterdam"],
       ["huguesdvmx", "Europe/Paris"],
@@ -27,7 +25,6 @@ function App() {
       ["kilacoda", "Asia/Kolkata"],
       ["naveen521kk","Asia/Kolkata"],
       ["Darylgolden", "Asia/Singapore"],
-      ["aquabeam", "America/New_York" ]
     ],
   };
   //true for 24 hour format and false for AM/Pm format
