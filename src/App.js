@@ -10,7 +10,6 @@ function App() {
     names: [
       ["jsonV", "America/Los_Angeles"],
       ["EulerTour", "America/Santa_Isabel"],
-      ["TheQuarantinedSpy", "America/Santa_Isabel"],
       ["MrMallIronmaker", "America/Santa_Isabel"],
       ["YoshiAsk", "America/Chicago"],
       ["friedkeenan", "America/Chicago"],
