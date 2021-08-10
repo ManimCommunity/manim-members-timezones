@@ -19,6 +19,7 @@ function App() {
       ["huguesdvmx", "Europe/Paris"],
       ["XorUnison", "Europe/Paris"],
       ["kolibril13", "Europe/Paris"],
+      ["oli", "Europe/Paris"],
       ["behackl","Europe/Vienna"],
       ["philippimhof","Europe/Zurich"],
       ["Aathish04", "Asia/Kolkata"],
