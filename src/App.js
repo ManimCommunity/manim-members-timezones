@@ -21,6 +21,7 @@ function App() {
       ["XorUnison", "Europe/Paris"],
       ["kolibril13", "Europe/Paris"],
       ["oli", "Europe/Paris"],
+      ["christopher.besch", "Europe/Paris"],
       ["behackl","Europe/Vienna"],
       ["philippimhof","Europe/Zurich"],
       ["Aathish04", "Asia/Kolkata"],
