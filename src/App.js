@@ -26,6 +26,7 @@ function App() {
       ["philippimhof","Europe/Zurich"],
       ["Aathish04", "Asia/Kolkata"],
       ["naveen521kk","Asia/Kolkata"],
+      ["icedtea","Asia/Kuala_Lumpur"],
       ["Darylgolden", "Asia/Singapore"],
     ],
   };
