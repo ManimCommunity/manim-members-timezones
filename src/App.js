@@ -28,6 +28,7 @@ function App() {
       ["naveen521kk","Asia/Kolkata"],
       ["icedtea","Asia/Kuala_Lumpur"],
       ["Darylgolden", "Asia/Singapore"],
+      ["ryanmccauley211", "Europe/London"],
     ],
   };
   //true for 24 hour format and false for AM/Pm format
