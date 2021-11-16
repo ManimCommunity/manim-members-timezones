@@ -24,11 +24,11 @@ function App() {
       ["christopher.besch", "Europe/Paris"],
       ["behackl","Europe/Vienna"],
       ["philippimhof","Europe/Zurich"],
+      ["ryanmccauley211", "Europe/London"],
       ["Aathish04", "Asia/Kolkata"],
       ["naveen521kk","Asia/Kolkata"],
       ["icedtea","Asia/Kuala_Lumpur"],
       ["Darylgolden", "Asia/Singapore"],
-      ["ryanmccauley211", "Europe/London"],
     ],
   };
   //true for 24 hour format and false for AM/Pm format
