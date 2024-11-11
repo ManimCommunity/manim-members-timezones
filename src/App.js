@@ -23,6 +23,7 @@ function App() {
       ["oli", "Europe/Paris"],
       ["christopher.besch", "Europe/Paris"],
       ["behackl","Europe/Vienna"],
+      ["MrDiver","Europe/Berlin"],
       ["philippimhof","Europe/Zurich"],
       ["ryanmccauley211", "Europe/London"],
       ["Aathish04", "Asia/Kolkata"],
