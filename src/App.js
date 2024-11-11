@@ -16,6 +16,7 @@ function App() {
       ["aquabeam", "America/New_York" ],
       ["kilacoda", "America/New_York"],
       ["🔥PgSuper🔥", "America/Sao_Paulo"],
+      ["chopan050", "America/Santiago"],
       ["cobordism","Europe/Amsterdam"],
       ["huguesdvmx", "Europe/Paris"],
       ["XorUnison", "Europe/Paris"],
