@@ -41,10 +41,9 @@ jobs:
         with:
           name: build
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-            GITHUB_TOKEN : ${{ github.token }}
-            BRANCH: gh-pages
-            FOLDER: build
-            SINGLE_COMMIT: true
+            branch: gh-pages
+            folder: build
+            single-commit: true
 
